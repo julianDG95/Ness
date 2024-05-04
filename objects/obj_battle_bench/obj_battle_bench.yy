@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bench",
+  "%Name":"obj_battle_bench",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bench",
+  "name":"obj_battle_bench",
   "overriddenProperties":[],
   "parent":{
     "name":"Interactables",

@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bench",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_manny_battle",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bench",
+  "name":"obj_manny_battle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interact",
-    "path":"objects/obj_interact/obj_interact.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bench",
-    "path":"sprites/spr_bench/spr_bench.yy",
+    "name":"spr_manny_battle",
+    "path":"sprites/spr_manny_battle/spr_manny_battle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
