@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_bench",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_bench",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Interactables.yy",
   },
   "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
+    "name":"obj_interact",
+    "path":"objects/obj_interact/obj_interact.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

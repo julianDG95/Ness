@@ -5,6 +5,8 @@ yspd = 0;
 
 move_spd = 1;
 
+//////////////////////////////////////
+// Setup sprite arrays for dynamic sprite config
 sprite[RIGHT] = spr_barth_new_right;
 sprite[UP] = spr_barth_new_up;
 sprite[LEFT] = spr_barth_new_left;
@@ -26,5 +28,6 @@ sprite[IDLE_RIGHT] = spr_barth_idle_right;
 sprite[IDLE_UP] = spr_barth_idle_up;
 */
 
+// Init facing variables
 face = DOWN;
 last_face = IDLE_DOWN;

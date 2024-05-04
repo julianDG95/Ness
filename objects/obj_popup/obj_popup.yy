@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trash_can",
+  "%Name":"obj_popup",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trash_can",
+  "name":"obj_popup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interact",
-    "path":"objects/obj_interact/obj_interact.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trash_can",
-    "path":"sprites/spr_trash_can/spr_trash_can.yy",
+    "name":"spr_interaction_popup",
+    "path":"sprites/spr_interaction_popup/spr_interaction_popup.yy",
   },
   "spriteMaskId":null,
   "visible":true,

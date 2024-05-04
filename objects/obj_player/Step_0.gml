@@ -12,13 +12,16 @@ down_key = keyboard_check(vk_down);
 xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
 
-if place_meeting(x + xspd, y, obj_wall) == true
+
+// Collisions with wall objects (Collidable objects inherit from walls)
+if place_meeting(x + xspd, y, obj_wall) == true or place_meeting(x + xspd, y, obj_interact) == true
 	xspd=0;
 
-if place_meeting(x, y + yspd, obj_wall)	== true
+if place_meeting(x, y + yspd, obj_wall)	== true or place_meeting(x, y + yspd, obj_interact)	== true
 	yspd=0;
 
 
+// Determine which facing sprite to use and idle face using last_face
 if yspd == 0 and xspd == 0 face = last_face;
 
 if yspd == 0 
@@ -29,7 +32,6 @@ if yspd == 0
 
 if xspd > 0 && face == LEFT face = RIGHT;
 if xspd < 0 && face == RIGHT face = LEFT;
-
 
 if xspd == 0
 {
@@ -47,7 +49,9 @@ mask_index = sprite[IDLE];
 if yspd > 0 && face == UP face = DOWN;
 if yspd < 0 && face == DOWN face = UP;
 
+// Actually change the sprite to the array setup in the create event for player
 sprite_index = sprite[face];
 
-// Force player to have maximum depth
+// Depth setup for origin y axis
+// Depth works by having lower depth objects drawn on top of higher depth objects
 depth = -bbox_bottom;
