@@ -6,10 +6,12 @@ if(! has_been_interacted)
 	{
 		has_been_interacted = true;
 		
-		repeat(15) {
-			var xx = obj_player.x + random_range(-16,16);
+		repeat(5) {
+			var xx = obj_player.x + random_range(-5,5);
+			var yy = obj_player.y + random_range(-16,16);
+			
 			//var trash_select_index = irandom(array_length(trash_obj_array - 1));
-			repeat(5) {instance_create_layer(xx, y, "Instances", obj_chewed_gum);}
+			instance_create_layer(xx, y - 20, "Instances", obj_chewed_gum);
 		}
 		
 		// remove popup

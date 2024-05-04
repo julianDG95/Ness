@@ -38,6 +38,7 @@ if xspd == 0
 	if yspd < 0 {face = UP; last_face = IDLE_UP;} 
 }
 
+
 // Player direction
 x += xspd;
 y += yspd;
