@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barth_down",
-    "path":"sprites/spr_barth_down/spr_barth_down.yy",
+    "name":"spr_barth_new_down",
+    "path":"sprites/spr_barth_new_down/spr_barth_new_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
