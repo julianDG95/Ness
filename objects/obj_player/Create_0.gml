@@ -10,10 +10,10 @@ sprite[UP] = spr_barth_new_up;
 sprite[LEFT] = spr_barth_new_left;
 sprite[DOWN] = spr_barth_new_down;
 
-sprite[IDLE_DOWN] = spr_barth_new_down;
-sprite[IDLE_LEFT] = spr_barth_new_left;
-sprite[IDLE_RIGHT] = spr_barth_new_right;
-sprite[IDLE_UP] = spr_barth_new_up;
+sprite[IDLE_DOWN] = spr_barth_new_down_idle;
+sprite[IDLE_LEFT] = spr_barth_new_left_idle;
+sprite[IDLE_RIGHT] = spr_barth_new_right_idle;
+sprite[IDLE_UP] = spr_barth_new_up_idle;
 /*
 sprite[RIGHT] = spr_barth_right;
 sprite[UP] = spr_barth_up;
