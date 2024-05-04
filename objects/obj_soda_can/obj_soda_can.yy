@@ -9,7 +9,10 @@
     "name":"Trash",
     "path":"folders/Objects/Trash.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_flying_trash",
+    "path":"objects/obj_flying_trash/obj_flying_trash.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

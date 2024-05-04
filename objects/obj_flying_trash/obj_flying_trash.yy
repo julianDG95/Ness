@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_snot_rag",
-  "eventList":[],
+  "%Name":"obj_flying_trash",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_snot_rag",
+  "name":"obj_flying_trash",
   "overriddenProperties":[],
   "parent":{
     "name":"Trash",
     "path":"folders/Objects/Trash.yy",
   },
-  "parentObjectId":{
-    "name":"obj_flying_trash",
-    "path":"objects/obj_flying_trash/obj_flying_trash.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_snot_rag",
-    "path":"sprites/spr_snot_rag/spr_snot_rag.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -10,8 +10,8 @@ if(! has_been_interacted)
 			var xx = obj_player.x + random_range(-5,5);
 			var yy = obj_player.y + random_range(-16,16);
 			
-			//var trash_select_index = irandom(array_length(trash_obj_array - 1));
-			instance_create_layer(xx, y - 20, "Instances", obj_chewed_gum);
+			var trash_select_index = irandom(array_length(trash_obj_array) - 1);
+			instance_create_layer(xx, y - 20, "Instances", trash_obj_array[trash_select_index]);
 		}
 		
 		// remove popup

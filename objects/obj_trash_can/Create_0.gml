@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-trash_obj_array = [obj_chewed_gum, obj_trash_can, obj_snot_rag];
+trash_obj_array = [obj_chewed_gum, obj_soda_can, obj_snot_rag];
