@@ -54,8 +54,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"OldBarth",
+    "path":"folders/Sprites/OldBarth.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

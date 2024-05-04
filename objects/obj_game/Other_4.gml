@@ -1,3 +1,4 @@
 /// @description Insert description here
-// You can write your code in this editor
+
+// Creates open of the music for the room
 audio_play_sound(snd_open, 0, true);

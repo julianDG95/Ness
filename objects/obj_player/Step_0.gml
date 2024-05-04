@@ -1,7 +1,6 @@
 /// @description Step event for Barth (Player)
 
 
-
 // Key setup
 right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left);
@@ -44,7 +43,9 @@ x += xspd;
 y += yspd;
 
 // Player Collisions
-mask_index = sprite[IDLE];
+
+// Force the player to always use collision mask for down idle for simplicity
+mask_index = sprite[IDLE_DOWN];
 
 if yspd > 0 && face == UP face = DOWN;
 if yspd < 0 && face == DOWN face = UP;
@@ -55,3 +56,4 @@ sprite_index = sprite[face];
 // Depth setup for origin y axis
 // Depth works by having lower depth objects drawn on top of higher depth objects
 depth = -bbox_bottom;
+
