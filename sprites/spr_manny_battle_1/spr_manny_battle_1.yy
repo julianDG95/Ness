@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_manny_battle",
+  "%Name":"spr_manny_battle_1",
   "bboxMode":0,
-  "bbox_bottom":257,
-  "bbox_left":20,
-  "bbox_right":229,
-  "bbox_top":101,
+  "bbox_bottom":63,
+  "bbox_left":5,
+  "bbox_right":56,
+  "bbox_top":25,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -17,12 +17,12 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":258,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"efb1664f-d350-4f7e-8e7c-093370ac440c","blendMode":0,"displayName":"default","isLocked":false,"name":"efb1664f-d350-4f7e-8e7c-093370ac440c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_manny_battle",
+  "name":"spr_manny_battle_1",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -60,7 +60,7 @@
     },
     "name":"spr_manny_battle",
     "playback":1,
-    "playbackSpeed":2.0,
+    "playbackSpeed":30.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,10 +70,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7bb18d5a-f8e2-4b76-a31b-62880d9ed90f","path":"sprites/spr_manny_battle/spr_manny_battle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7bb18d5a-f8e2-4b76-a31b-62880d9ed90f","path":"sprites/spr_manny_battle_1/spr_manny_battle_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"77f14ee2-70f1-444a-a53d-74a5415de863","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9150abd-8ca5-4af2-96e9-4e0038015326","path":"sprites/spr_manny_battle/spr_manny_battle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9150abd-8ca5-4af2-96e9-4e0038015326","path":"sprites/spr_manny_battle_1/spr_manny_battle_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"67b8bbe5-29c8-4bb1-88b4-5fc13436520f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
@@ -90,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":258,
+  "width":64,
 }

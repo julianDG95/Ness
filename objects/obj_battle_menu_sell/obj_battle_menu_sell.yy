@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_battle_enemy",
+  "%Name":"obj_battle_menu_sell",
   "eventList":[],
   "managed":true,
-  "name":"obj_battle_enemy",
+  "name":"obj_battle_menu_sell",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_generic_text",
-    "path":"objects/obj_generic_text/obj_generic_text.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_battle_sell",
+    "path":"sprites/spr_battle_sell/spr_battle_sell.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

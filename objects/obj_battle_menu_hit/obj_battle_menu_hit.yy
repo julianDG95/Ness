@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_battle_unit",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_battle_menu_hit",
+  "eventList":[],
   "managed":true,
-  "name":"obj_battle_unit",
+  "name":"obj_battle_menu_hit",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_battle_hit",
+    "path":"sprites/spr_battle_hit/spr_battle_hit.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
