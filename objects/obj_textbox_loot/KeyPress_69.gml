@@ -1,0 +1,3 @@
+global.player_can_move = true; // Player can move once textbox is over....
+
+instance_destroy();

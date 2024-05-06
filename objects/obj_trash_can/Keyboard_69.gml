@@ -13,6 +13,12 @@ if(! has_been_interacted)
 			var trash_select_index = irandom(array_length(trash_obj_array) - 1);
 			instance_create_layer(xx, y - 20, "Instances", trash_obj_array[trash_select_index]);
 		}
+		myTextBox =  instance_create_layer(x,y, "Instances", obj_textbox,
+		{
+			text : "You found a rusty spoon!!!!!!!!",
+			image : spr_used_spoon,
+			name : "Trash Man Tom"
+		});
 		
 		// remove popup
 		instance_destroy(popup_id);

@@ -8,18 +8,22 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 
 // Speed of player
-if(global.player_can_move)
+if(global.player_can_move) // JDG - This is so that during textboxes, etc the player is forced to not move
 {
 	xspd = (right_key - left_key) * move_spd;
 	yspd = (down_key - up_key) * move_spd;
 }
 
-// Collisions with wall objects (Collidable objects inherit from walls)
-if place_meeting(x + xspd, y, obj_wall) == true or place_meeting(x + xspd, y, obj_interact) == true
-	xspd=0;
+// JDG - Experimenting with diag speed....
+/*if (xspd !=0 and yspd !=0)
+{
+	xspd = xspd  * 0.75;
+	yspd = yspd * 0.75;
+}
+*/		
 
-if place_meeting(x, y + yspd, obj_wall)	== true or place_meeting(x, y + yspd, obj_interact)	== true
-	yspd=0;
+if yspd > 0 && face == UP face = DOWN;
+if yspd < 0 && face == DOWN face = UP;
 
 
 // Determine which facing sprite to use and idle face using last_face
@@ -41,6 +45,19 @@ if xspd == 0
 }
 
 
+
+// Collisions with wall objects (Collidable objects inherit from walls)
+if place_meeting(x + xspd, y, obj_wall) == true or place_meeting(x + xspd, y, obj_interact) == true
+{
+	xspd=0;
+}
+
+if place_meeting(x, y + yspd, obj_wall)	== true or place_meeting(x, y + yspd, obj_interact)	== true
+{	
+	yspd=0;
+}
+
+
 // Player direction
 x += xspd;
 y += yspd;
@@ -49,9 +66,6 @@ y += yspd;
 
 // Force the player to always use collision mask for down idle for simplicity
 mask_index = sprite[IDLE_DOWN];
-
-if yspd > 0 && face == UP face = DOWN;
-if yspd < 0 && face == DOWN face = UP;
 
 // Actually change the sprite to the array setup in the create event for player
 sprite_index = sprite[face];

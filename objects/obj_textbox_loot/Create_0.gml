@@ -7,13 +7,12 @@ frameSpeed = sprite_get_speed(image);
 
 curFrames = 0;
 curFrameIndex = 0;
-/*
+
 enum MSG {
 		text, 
 		name, 
 		image 
 }
-*/
 io_clear();
 var guiH = display_get_gui_height();
 var guiW = display_get_gui_width();

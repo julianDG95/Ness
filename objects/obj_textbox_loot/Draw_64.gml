@@ -11,22 +11,12 @@ draw_sprite_stretched(spr_textbox, 0, x, y, width, height);
 // Draw Text
 //text = "Hello world! This is a test string for textbox
 
-padding = 5;
-ypadding = 5;
 
-show_debug_message("Curframes, then numframes...");
-show_debug_message(curFrames);
-show_debug_message(numFrames);
-show_debug_message(curFrameIndex);
 if curFrameIndex > numFrames
 	curFrameIndex = 0; // Back to the first
 
-draw_sprite(image, curFrameIndex, x + padding, y + ypadding)	
+draw_sprite(image, curFrameIndex, x, y)	
 
-show_debug_message("Debug:");
-show_debug_message(frameSpeed);
-show_debug_message(curFrames);
-show_debug_message(numFrames);
 
 if (++curFrames > frameSpeed)
 {
@@ -40,11 +30,10 @@ imageY = sprite_get_width(image);
 padding = imageSize;
 
 drawX = x + padding;
-drawX += imageX;
-ypadding = 20;
+//ypadding = 20;
 //ypadding += imageY;
 padding += imageX;
 //drawY = y + padding;
 drawY = y + ypadding;
 
-draw_text_ext(drawX,drawY, text, stringHeight + ypadding, width - padding); // Function automatically wraps text
+draw_text_ext(drawX,drawY, text, stringHeight + ypadding, width); // Function automatically wraps text
