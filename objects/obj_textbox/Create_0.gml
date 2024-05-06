@@ -2,6 +2,12 @@
 boxWidth = sprite_get_width(spr_textbox);
 stringHeight = string_height(text);
 
+numFrames = sprite_get_number(image);
+frameSpeed = sprite_get_speed(image);
+
+curFrames = 0;
+curFrameIndex = 0;
+
 enum MSG {
 		text, 
 		name, 
