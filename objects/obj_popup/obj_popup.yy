@@ -9,8 +9,8 @@
   "name":"obj_popup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Popups",
+    "path":"folders/Objects/Popups.yy",
   },
   "parentObjectId":null,
   "persistent":false,

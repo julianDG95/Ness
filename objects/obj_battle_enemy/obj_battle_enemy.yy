@@ -6,8 +6,8 @@
   "name":"obj_battle_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"State Objects",
+    "path":"folders/Objects/State Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_generic_text",

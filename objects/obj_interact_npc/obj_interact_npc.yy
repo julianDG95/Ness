@@ -1,18 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_battle",
+  "%Name":"obj_interact_npc",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_battle",
+  "name":"obj_interact_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"State Objects",
-    "path":"folders/Objects/State Objects.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interact",
+    "path":"objects/obj_interact/obj_interact.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -4,7 +4,7 @@ xspd = 0;
 yspd = 0;
 
 move_spd = 1;
-
+global.player_can_move = true;
 //////////////////////////////////////
 // Setup sprite arrays for dynamic sprite config
 sprite[RIGHT] = spr_barth_new_right;

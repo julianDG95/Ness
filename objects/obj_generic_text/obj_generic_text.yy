@@ -9,8 +9,8 @@
   "name":"obj_generic_text",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"State Objects",
+    "path":"folders/Objects/State Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

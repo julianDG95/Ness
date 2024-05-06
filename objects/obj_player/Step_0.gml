@@ -8,9 +8,11 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 
 // Speed of player
-xspd = (right_key - left_key) * move_spd;
-yspd = (down_key - up_key) * move_spd;
-
+if(global.player_can_move)
+{
+	xspd = (right_key - left_key) * move_spd;
+	yspd = (down_key - up_key) * move_spd;
+}
 
 // Collisions with wall objects (Collidable objects inherit from walls)
 if place_meeting(x + xspd, y, obj_wall) == true or place_meeting(x + xspd, y, obj_interact) == true
