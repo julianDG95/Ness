@@ -60,7 +60,7 @@
     },
     "name":"spr_barth_new_left",
     "playback":1,
-    "playbackSpeed":11.0,
+    "playbackSpeed":4.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

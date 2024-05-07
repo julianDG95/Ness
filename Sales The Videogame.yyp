@@ -122,6 +122,8 @@
     {"id":{"name":"spr_manny_battle_1","path":"sprites/spr_manny_battle_1/spr_manny_battle_1.yy",},},
     {"id":{"name":"spr_manny_battle","path":"sprites/spr_manny_battle/spr_manny_battle.yy",},},
     {"id":{"name":"spr_manny_down","path":"sprites/spr_manny_down/spr_manny_down.yy",},},
+    {"id":{"name":"spr_manny_left","path":"sprites/spr_manny_left/spr_manny_left.yy",},},
+    {"id":{"name":"spr_manny_right","path":"sprites/spr_manny_right/spr_manny_right.yy",},},
     {"id":{"name":"spr_manny_up","path":"sprites/spr_manny_up/spr_manny_up.yy",},},
     {"id":{"name":"spr_park_tiles","path":"sprites/spr_park_tiles/spr_park_tiles.yy",},},
     {"id":{"name":"spr_snot_rag","path":"sprites/spr_snot_rag/spr_snot_rag.yy",},},
