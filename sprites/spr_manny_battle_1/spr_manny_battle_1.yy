@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"NPCs",
-    "path":"folders/Sprites/NPCs.yy",
+    "name":"Battle",
+    "path":"folders/Sprites/NPCs/Manny/Battle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

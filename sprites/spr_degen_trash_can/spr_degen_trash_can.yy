@@ -39,8 +39,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"NPCs",
-    "path":"folders/Sprites/NPCs.yy",
+    "name":"Overworld",
+    "path":"folders/Sprites/NPCs/TrashMan/Overworld.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

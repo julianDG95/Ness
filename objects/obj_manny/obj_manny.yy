@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_manny",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_manny",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"NPCs",
     "path":"folders/Objects/NPCs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interact_npc",
+    "path":"objects/obj_interact_npc/obj_interact_npc.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_manny_down",
+    "path":"sprites/spr_manny_down/spr_manny_down.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

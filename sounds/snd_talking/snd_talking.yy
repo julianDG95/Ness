@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_talking",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.44405,
+  "name":"snd_talking",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"snd_talking.mp3",
+  "type":0,
+  "volume":1.0,
+}

@@ -39,4 +39,20 @@ padding += imageX;
 //drawY = y + padding;
 drawY = y + ypadding;
 
-draw_text_ext(drawX,drawY, text, stringHeight + ypadding, width - padding); // Function automatically wraps text
+
+if (!pause and charCur < string_length(text))
+{
+	if(charCur % 2 == 0)
+	audio_play_sound(snd_talking, 10, false, 1, 0, 10);
+	charCur += charSpeed;
+	_str = string_copy(text, 1, charCur);
+	switch(string_char_at(_str, charCur)){
+		case ",": pause = true; alarm[1] = 15; break;
+		case ".":
+		case "?":
+		case "!": pause = true; alarm [1] = 25; break;
+	}
+}
+
+draw_text_ext(drawX,drawY, _str, stringHeight + ypadding, width - padding); // Function automatically wraps text
+

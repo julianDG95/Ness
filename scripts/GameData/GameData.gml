@@ -35,3 +35,5 @@ global.enemies =
 			}
 		}
 }
+
+global.trashCollected = 0;
