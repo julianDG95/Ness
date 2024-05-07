@@ -14,19 +14,11 @@ draw_sprite_stretched(spr_textbox, 0, x, y, width, height);
 padding = 5;
 ypadding = 5;
 
-show_debug_message("Curframes, then numframes...");
-show_debug_message(curFrames);
-show_debug_message(numFrames);
-show_debug_message(curFrameIndex);
 if curFrameIndex > numFrames
 	curFrameIndex = 0; // Back to the first
 
 draw_sprite(image, curFrameIndex, x + padding, y + ypadding)	
 
-show_debug_message("Debug:");
-show_debug_message(frameSpeed);
-show_debug_message(curFrames);
-show_debug_message(numFrames);
 
 if (++curFrames > frameSpeed)
 {

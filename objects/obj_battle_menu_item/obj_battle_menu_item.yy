@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_battle_menu_hit",
+  "%Name":"obj_battle_menu_item",
   "eventList":[],
   "managed":true,
-  "name":"obj_battle_menu_hit",
+  "name":"obj_battle_menu_item",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_battle_hit",
-    "path":"sprites/spr_battle_hit/spr_battle_hit.yy",
+    "name":"spr_battle_item",
+    "path":"sprites/spr_battle_item/spr_battle_item.yy",
   },
   "spriteMaskId":null,
   "visible":true,

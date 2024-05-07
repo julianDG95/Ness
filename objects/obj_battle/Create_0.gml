@@ -28,7 +28,7 @@ for (var i = 0; i < array_length(global.party); i++)
 // Error check that we passed something in, otherwise runtime error may occur
 if array_length(units) == 0 instance_destroy(obj_battle)
 */
-//Shuffle turn order
+//Shuffle turn order - currently no turn order remove this TODO...
 unitTurnOrder = array_shuffle(units);
 
 //Get render order
@@ -42,3 +42,21 @@ RefreshRenderOrder = function()
 	});
 };
 RefreshRenderOrder();
+
+BattleMenu(x,y,
+[
+  {
+  name: "Sell",
+  funct: battleSell,
+  arg: [],
+  sprite: spr_battle_sell,
+  avail: true
+  },
+  {
+  name: "Item",
+  funct: battleSell,
+  arg: [],
+  sprite: spr_battle_item,
+  avail: true
+  }
+], 50);
