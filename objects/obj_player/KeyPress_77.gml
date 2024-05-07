@@ -22,10 +22,24 @@ BattleMenu(x,y,
   avail: true
   },
   {
+  name: "Party Skills",
+  funct: battleSell,
+  arg: [],
+  sprite: spr_battle_party_skills,
+  avail: true
+  },
+   {
   name: "Item",
   funct: battleSell,
   arg: [],
   sprite: spr_battle_item,
+  avail: true
+  },
+   {
+  name: "Escape",
+  funct: battleSell,
+  arg: [],
+  sprite: spr_battle_escape,
   avail: true
   }
 ], 50);
